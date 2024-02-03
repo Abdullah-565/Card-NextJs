@@ -5,7 +5,7 @@ const Card = ({title}:{title:string}) => {
     
   return (
     <div>
-      <div className="border border-black flex flex-col w-[200px]">
+      <div className="border border-black flex flex-col w-[200px] bg-white">
         <div className="">
         <Image className="w-[200px] h-[150px]" src={CardImage} alt="Card" />
         </div>

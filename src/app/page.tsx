@@ -4,8 +4,10 @@ import Card from "@/components/card";
 
 export default function Home() {
   return (
+    <body className="bg-amber-900">
+      
     <div>
-      <h1 className="text-center">Home</h1>
+      <h1 className="text-center text-4xl font-extrabold my-6">CARD Component</h1>
       <div className="flex gap-6 justify-center items-center">
 
       <Card title="Card1"/>
@@ -15,5 +17,6 @@ export default function Home() {
       
       </div>
     </div>
+    </body>
   );
 }
